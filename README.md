@@ -13,8 +13,8 @@
   ```java
   public class Test {
       public static void main(String[] args) {
-  		Test a = new Test();
-  		a = null;
+  		  Test a = new Test();
+  		  a = null;
       }
   }
   ```
@@ -27,9 +27,9 @@
   public class Test {
       public static Test s;
       public static  void main(String[] args) {
-  		Test a = new Test();
-  		a.s = new Test();
-  		a = null;
+  		  Test a = new Test();
+  		  a.s = new Test();
+  		  a = null;
       }
   }
   ```
@@ -42,8 +42,8 @@
   public class Test {
   	public static final Test s = new Test();
       public static void main(String[] args) {
-  		Test a = new Test();
-  		a = null;
+  		  Test a = new Test();
+  		  a = null;
       }
   }
   ```
